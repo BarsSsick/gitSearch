@@ -1,0 +1,90 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.app {
+    padding: 25px;
+}
+
+.title {
+    text-align: center;
+}
+
+.main {
+    align-items: flex-start;
+    display: flex;
+}
+
+.search-line {
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.search-input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 1;
+    margin-bottom: 10px;
+    height: 40px;
+    line-height: 20px;
+    padding: 8px 15px;
+}
+
+.repositories-wrapper {
+    padding: 0;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.repositories {
+    list-style-type: none;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.repository-prev-name {
+    font-weight: 600;
+}
+
+.repository-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.repository-list-item {
+    margin: 5px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.btn {
+    background-color: #ccc;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 38px;
+    line-height: 40px;
+    margin: 50px auto 0;
+    width: 150px;
+}
+
+.search-btn{
+    position: absolute;
+    top: -51px;
+    right: 0;
+}
+
+.repos-box {
+    width: 100%;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+}
